@@ -1,0 +1,18 @@
+
+.navbar-area {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    padding: 5px 0 !important;
+    .link-area {
+        a {
+            font-size: 16px;
+            padding: 0 10px;
+            text-decoration: none;
+            color: hsl(207, 26%, 17%);
+            &:hover,
+            &:focus {
+                color: #0d6efd;
+            }
+        }
+    }
+}

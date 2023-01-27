@@ -1,3 +1,17 @@
 .details-area {
-
+    font-size: 16px;
+    .image-area {
+        height: 400px;
+        width: 400px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .custom-btn {
+        width: 140px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 3px 1px hsl(0, 0%, 80%);
+    }
 }
