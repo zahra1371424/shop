@@ -1,5 +1,5 @@
-import { useContext, useEffect, useState } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { useContext} from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import ProductItem from "../../../components/ProductItem";
 import { ProductContext } from "../../../context";
 import "./list.style.scss";
